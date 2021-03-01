@@ -24,5 +24,19 @@ namespace EersteProjectGitHub
         {
             InitializeComponent();
         }
+
+        private void btnClick_Click(object sender, RoutedEventArgs e)
+        {
+            lblSomething.Content = "Hello World";
+        }
+
+        int iNr = 0;
+        private void btnMath_Click(object sender, RoutedEventArgs e)
+        {
+            iNr++;
+            
+
+            lblMath.Content = iNr.ToString();
+        }
     }
 }

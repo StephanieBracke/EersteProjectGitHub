@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Name="btnClick" Content="Click me" HorizontalAlignment="Left" Margin="354,181,0,0" VerticalAlignment="Top" Click="btnClick_Click"/>
+        <Label Name="lblSomething" Content="Something will happen" HorizontalAlignment="Left" Margin="356,118,0,0" VerticalAlignment="Top"/>
+        <Button Name="btnMath"  Content="calculate" HorizontalAlignment="Left" Margin="105,181,0,0" VerticalAlignment="Top" Click="btnMath_Click"/>
+        <Label Name="lblMath" Content="Math" HorizontalAlignment="Left" Margin="105,272,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
